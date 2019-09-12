@@ -10,3 +10,13 @@ Katherine's Dallas and Temple case.
 
 The purpose of this code is to place devices based on Mvar losses. It will make the process much faster, as I am able to run this code
 multiple times without having to make the manual changes one by one as I previously did last semester. 
+
+
+
+Katherine: 
+This week I have started to add GIC blocking devices to the Temple case. At first I started with random ones just to make sure the 
+system would not black out, and now I am beginning to add the devices based on Adriana's research. Based on the early simulations I have 
+completed (power flow) the GIC blocking devices are causing the MVar losses to decrease. So far, the blocking devices haven't shown to 
+increase the magnitude of storm the case can withstand without blacking out, but that is most likely because so far I have only added 
+5 at a time. This week I am going to continue to add the blocking devices, further decrease the MVar losses, and have the goal to increase 
+the magnitude of storm that the case can withstand.
