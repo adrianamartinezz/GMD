@@ -1,4 +1,12 @@
 Adriana: 
-I have been working on my Python code as part of the SimAuto function for PowerWorld. I have been able to successfully run it with my own case (Case 6). As of right now, the code implements a storm on the file case with a given storm magnitude and direction. It then takes the Mvar losses and compares them to value 50 Mvar. If it is larger than 50Mvar, then it will display which transformers need to have a GIC blocking device placed on them. I have had trouble implementing the second part of the code, which is changing the GIC Blocking device from "No" to "Yes" and placing a GIC blocking device on those transformers. the command changeParameters is not accepting my input, so I am currently trouble shooting that portion of the code. My goal is to have that finished by this weekend so that I am able to run the code with Katherine's Dallas and Temple case. 
+I have been working on my Python code as part of the SimAuto function for PowerWorld. 
+I have been able to successfully run it with my own case (Case 6). As of right now, the code implements a storm on the 
+file case with a given storm magnitude and direction. It then takes the Mvar losses and compares them to value 50 Mvar. 
+If it is larger than 50Mvar, then it will display which transformers need to have a GIC blocking device placed on them. 
+I have had trouble implementing the second part of the code, which is changing the GIC Blocking device from "No" to "Yes" 
+and placing a GIC blocking device on those transformers. the command changeParameters is not accepting my input, so I am currently 
+trouble shooting that portion of the code. My goal is to have that finished by this weekend so that I am able to run the code with 
+Katherine's Dallas and Temple case. 
 
-The purpose of this code is to place devices based on Mvar losses. It will make the process much faster, as I am able to run this code multiple times without having to make the manual changes one by one as I previously did last semester. 
+The purpose of this code is to place devices based on Mvar losses. It will make the process much faster, as I am able to run this code
+multiple times without having to make the manual changes one by one as I previously did last semester. 
