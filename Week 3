@@ -11,6 +11,10 @@ Katherine's Dallas and Temple case.
 The purpose of this code is to place devices based on Mvar losses. It will make the process much faster, as I am able to run this code
 multiple times without having to make the manual changes one by one as I previously did last semester. 
 
+I have been able to successfully implement the "changeParameters" function in my code. I ran the code with Katherine's Dallas case
+and tested the code with values between 50-100Mvars. Based on the value I would input, it would place GIC blocking devices on the 
+transformes that had a value above that loss. 
+
 
 
 Katherine: 
