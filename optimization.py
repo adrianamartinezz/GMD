@@ -54,8 +54,11 @@ for i in range(size):
     losses_flt2 = post_losses.astype(np.float)  # takes the transformer losses
     p_total_loss = sum(losses_flt2)
     print("The total Mvar losses after GIC blocking device placement is:" ,p_total_loss)
-
-    pysimauto.saveCaseAs("C:\\Users\\Adriana Martinez\\Desktop\\PowerWorld\\.pwdDallasCase2")
+    pwb_file_path= "C:\\Users\\Adriana Martinez\\Desktop\\PowerWorld\\DallasCase2.PWB"
+    commandsave='SaveCase("%s", "PWB")'% (pwb_file_path)
+    print(commandsave)
+    pysimauto.runScriptCommand(commandsave)
+  
 
 
 
