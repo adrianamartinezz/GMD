@@ -1,8 +1,8 @@
-
-
 Katherine:
   - Added up to 90 Devices on Temple case in 8 cases. (5, 10, 15, 30, 45, 60, 75, 90)
-  - Simulated storm of 5 V/km 
+  - Simulated storm of 5 V/km, collected powerflow data and exported to excel
+  - Before the next update I will add the devices to the Dallas case and begin the validation
+  - Hopefully talk to grad student about how I will implement hotspots
 
 
 Adriana:
