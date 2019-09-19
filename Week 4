@@ -3,3 +3,10 @@
 Katherine:
   - Added up to 90 Devices on Temple case in 8 cases. (5, 10, 15, 30, 45, 60, 75, 90)
   - Simulated storm of 5 V/km 
+
+
+Adriana:
+-Met with Ceci earlier this week to get help with device placement in increments of 10
+-Implemented while loop to add GIC Blocking devices in incremenets of 10 based on a certain Mvar loss. 
+-Function works, but while loop does not break when it meets conditions. Currently trouble shooting to figure out why it doesnt 
+break when it should. 
